@@ -1,0 +1,1 @@
+export { VodafoneIntegration } from './VodafoneIntegration';

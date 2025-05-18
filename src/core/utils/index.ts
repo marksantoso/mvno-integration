@@ -1,0 +1,1 @@
+export { parseSoap } from './parseSoap';

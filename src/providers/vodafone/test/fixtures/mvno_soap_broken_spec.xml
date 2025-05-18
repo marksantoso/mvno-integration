@@ -1,0 +1,12 @@
+      <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+        <soapenv:Header/>
+        <soapenv:Body>
+          <sms:ChargeSMS>
+            <sms:UserID>abc123</sms:UserID>
+            <sms:PhoneNumber>+46701234567</sms:PhoneNumber>
+            <!-- Missing closing tag below -->
+            <sms:MessageID>msg789
+            <sms:Timestamp>2025-04-01T12:30:00Z</sms:Timestamp>
+          </sms:ChargeSMS>
+        </soapenv:Body>
+      </soapenv:Envelope>
