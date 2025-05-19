@@ -52,6 +52,7 @@ MVNO integration in this case is labelled "Vodafone"
 # Key Assumptions & Decisions
 
 - Only Vodafone was implemented as a proof of concept.
+- Created mock-based tests using fixture data rather than implementing full mock APIs due to time/scope constraints.
 - System supports both REST and SOAP API formats.
 - Used `Zod` for runtime validation and `Lodash` for deep merging.
 - Structure enables fast onboarding of new providers by isolating logic and reusing shared abstractions.

@@ -59,9 +59,6 @@ npm run build
 ## Development
 
 ### Available Scripts
-
-- `npm run dev`: Start development server
-- `npm run build`: Build for production
 - `npm test`: Run tests
 - `npm run format`: Format code with Prettier
 - `npm run lint`: Lint code with ESLint
